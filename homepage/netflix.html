@@ -1,0 +1,120 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Netflix - Watch TV Shows online, Watch Movies online</title>
+    <link rel="stylesheet" href="/web/css/netflix.css">
+</head>
+<body>
+    <!-- navigation bar -->
+    <div class="nav_bar" id="nav">
+        <img src="/web/netflix-images/netflix-logo.png" alt="netflix" class="nav_logo">
+        <img src="/web/netflix-images/netflix-avatar.png"alt="user logo" class="user_logo">
+
+    </div>
+    <!-- HEADER -->
+    <div class="banner">
+        <div class="banner__contents">
+            <h1 class="banner__title">Money Heist</h1> 
+                <div class="banner__buttons">
+                 <button class="banner__button">Play</button> 
+                 <button class="banner__button">My List</button>  
+                </div>
+                <div class="banner__description">
+                    To carry out the biggest heist in the history, a mysterious man called Professor 
+                    recurits a band of eight robbers who nhave the same characteristic: n....
+                
+                </div>
+        </div>
+        <div class="banner__fade-bottom">
+
+        </div>
+    </div>
+    <!-- netflix originals -->
+<div class="row">
+    <h1>NEFLIX ORIGINALS</h1>
+    <div class="row__posters">
+        <img src="/web/netflix-images/large-movie2.jpg" alt="" class="row__poster row__posterLarge">
+        <img src="/web/netflix-images/large-movie3.jpg" alt="" class="row__poster row__posterLarge">
+        <img src="/web/netflix-images/large-movie4.jpg" alt="" class="row__poster row__posterLarge">
+        <img src="/web/netflix-images/large-movie5.jpg" alt="" class="row__poster row__posterLarge">
+        <img src="/web/netflix-images/large-movie6.jpg" alt="" class="row__poster row__posterLarge">
+        <img src="/web/netflix-images/large-movie7.jpg" alt="" class="row__poster row__posterLarge">
+        <img src="/web/netflix-images/large-movie8.jpg" alt="" class="row__poster row__posterLarge">
+    </div>
+</div>
+
+<!-- trending now -->
+<div class="row">
+    <h1>TRENDING  NOW</h1>
+    <div class="row__posters">
+        <img src="/web/netflix-images/small-movie2.jpg" alt="" class="row__poster">
+        <img src="/web/netflix-images/small-movie3.jpg" alt="" class="row__poster">
+        <img src="/web/netflix-images/small-movie4.jpg" alt="" class="row__poster">
+        <img src="/web/netflix-images/small-movie5.jpg" alt="" class="row__poster">
+        <img src="/web/netflix-images/small-movie6.jpg" alt="" class="row__poster">
+        <img src="/web/netflix-images/small-movie7.jpg" alt="" class="row__poster">
+        <img src="/web/netflix-images/small-movie8.jpg" alt="" class="row__poster">
+    </div>
+</div>
+
+<!-- top rated -->
+<div class="row">
+    <h1>TOP RATED</h1>
+    <div class="row__posters">
+        <img src="/web/netflix-images/large-movie2.jpg" alt="" class="row__poster row__posterLarge">
+        <img src="/web/netflix-images/large-movie3.jpg" alt="" class="row__poster row__posterLarge">
+        <img src="/web/netflix-images/large-movie4.jpg" alt="" class="row__poster row__posterLarge">
+        <img src="/web/netflix-images/large-movie5.jpg" alt="" class="row__poster row__posterLarge">
+        <img src="/web/netflix-images/large-movie6.jpg" alt="" class="row__poster row__posterLarge">
+        <img src="/web/netflix-images/large-movie7.jpg" alt="" class="row__poster row__posterLarge">
+        <img src="/web/netflix-images/large-movie8.jpg" alt="" class="row__poster row__posterLarge">
+        <img src="/web/netflix-images/small-movie2.jpg" alt="" class="row__poster">
+        <img src="/web/netflix-images/small-movie3.jpg" alt="" class="row__poster">
+        <img src="/web/netflix-images/small-movie4.jpg" alt="" class="row__poster">
+        <img src="/web/netflix-images/small-movie5.jpg" alt="" class="row__poster">
+        <img src="/web/netflix-images/small-movie6.jpg" alt="" class="row__poster">
+        <img src="/web/netflix-images/small-movie7.jpg" alt="" class="row__poster">
+        <img src="/web/netflix-images/small-movie8.jpg" alt="" class="row__poster">
+    </div>
+</div>
+<!-- action movies -->
+<div class="row">
+    <h1>ACTION</h1>
+    <div class="row__posters">
+        <img src="/web/netflix-images/large-movie2.jpg" alt="" class="row__poster row__posterLarge">
+        <img src="/web/netflix-images/large-movie3.jpg" alt="" class="row__poster row__posterLarge">
+        <img src="/web/netflix-images/large-movie4.jpg" alt="" class="row__poster row__posterLarge">
+        <img src="/web/netflix-images/large-movie5.jpg" alt="" class="row__poster row__posterLarge">
+        <img src="/web/netflix-images/large-movie6.jpg" alt="" class="row__poster row__posterLarge">
+        <img src="/web/netflix-images/large-movie7.jpg" alt="" class="row__poster row__posterLarge">
+        <img src="/web/netflix-images/large-movie8.jpg" alt="" class="row__poster row__posterLarge">
+    </div>
+</div>
+<!-- comedy movies -->
+<div class="row">
+    <h1>COMEDY</h1>
+    <div class="row__posters">
+        <img src="/web/netflix-images/large-movie2.jpg" alt="" class="row__poster row__posterLarge">
+        <img src="/web/netflix-images/large-movie3.jpg" alt="" class="row__poster row__posterLarge">
+        <img src="/web/netflix-images/large-movie4.jpg" alt="" class="row__poster row__posterLarge">
+        <img src="/web/netflix-images/large-movie5.jpg" alt="" class="row__poster row__posterLarge">
+        <img src="/web/netflix-images/large-movie6.jpg" alt="" class="row__poster row__posterLarge">
+        <img src="/web/netflix-images/large-movie7.jpg" alt="" class="row__poster row__posterLarge">
+        <img src="/web/netflix-images/large-movie8.jpg" alt="" class="row__poster row__posterLarge">
+    </div>
+</div>
+<script>
+    const nav= document.getElementById('nav');
+    window.addEventListener('scroll',()=>{
+        if(window.scrollY>=100){
+            nav.classList.add('nav__black');}
+            else{
+                nav.classList.remove('nav__black'); 
+            }
+    })
+</script>
+</body>
+</html>
