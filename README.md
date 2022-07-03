@@ -1,3 +1,3 @@
 # netflix
 netflix-clone
-lofin_page for netflix
+login_page for netflix
